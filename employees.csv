@@ -1,0 +1,9 @@
+id, first_name, last_name, title, department, salary, manager
+1, Jack, Daniels, Salesperson, Sales, 100000, Josiah Jackson
+2, James, Taylor, Sales Lead, Sales, 150000, Josiah Jackson
+3, Sarah, Johnson, Lawyer, Legal, 200000, Timothy Manson
+4, Moriah, Stetson, Lawyer, Legal, 220000, Timothy Manson
+5, Garret, Smith, Salesperson, Sales, 60000, Josiah Jackson
+6, John, Marston, Accountant, Finance, 300000, Melanie Swagger
+7, Carl, Johnson, Lawyer, Legal, 40000, Timothy Manson
+8, Luigi, Charles, Salesperson, Sales, 25000, Josiah Jackson
