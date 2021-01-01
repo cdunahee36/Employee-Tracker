@@ -61,6 +61,8 @@ const runSearch = () => {
       }
     });
 }
+
+//This function allows user to add a single department to the table
 const addDepartment = () => {
   inquirer
     .prompt([
@@ -79,6 +81,7 @@ const addDepartment = () => {
     });
   };
 
+//This function allows the user to add a single role to the table
 const addRoles = () => {
   inquirer
     .prompt([
@@ -97,6 +100,7 @@ const addRoles = () => {
     });
   };
 
+//This function allows the user to add and entire employee to the table
 const addEmployees = () => {
   inquirer
     .prompt([
@@ -144,7 +148,8 @@ const addEmployees = () => {
       });
     });
   };
-  
+
+//This function confirms whether or not the user would like to view the table
 const viewEmp = () => {
   inquirer
   .prompt({
@@ -162,6 +167,7 @@ const viewEmp = () => {
   });
 };
 
+//This function allows the user to view all the departments in the table
 const viewDept = () => {
   inquirer
   .prompt({
@@ -179,6 +185,7 @@ const viewDept = () => {
   });
 };
 
+//This function allows the user to view the roles within the table
 const viewRoles = () => {
   inquirer
   .prompt({
@@ -196,6 +203,7 @@ const viewRoles = () => {
   });
 };
 
+//This function will update an employee id based on their first and last name
 const updRoles = () => {
   inquirer
     .prompt([
